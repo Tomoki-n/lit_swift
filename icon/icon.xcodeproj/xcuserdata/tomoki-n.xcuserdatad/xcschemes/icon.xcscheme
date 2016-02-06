@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FA9E300B1C65C786004EA185"
-               BuildableName = "clac.app"
-               BlueprintName = "clac"
-               ReferencedContainer = "container:clac.xcodeproj">
+               BlueprintIdentifier = "FA9E2FCE1C65C49E004EA185"
+               BuildableName = "icon.app"
+               BlueprintName = "icon"
+               ReferencedContainer = "container:icon.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FA9E30221C65C786004EA185"
-               BuildableName = "clacTests.xctest"
-               BlueprintName = "clacTests"
-               ReferencedContainer = "container:clac.xcodeproj">
+               BlueprintIdentifier = "FA9E2FE51C65C49E004EA185"
+               BuildableName = "iconTests.xctest"
+               BlueprintName = "iconTests"
+               ReferencedContainer = "container:icon.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FA9E302D1C65C786004EA185"
-               BuildableName = "clacUITests.xctest"
-               BlueprintName = "clacUITests"
-               ReferencedContainer = "container:clac.xcodeproj">
+               BlueprintIdentifier = "FA9E2FF01C65C49E004EA185"
+               BuildableName = "iconUITests.xctest"
+               BlueprintName = "iconUITests"
+               ReferencedContainer = "container:icon.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FA9E300B1C65C786004EA185"
-            BuildableName = "clac.app"
-            BlueprintName = "clac"
-            ReferencedContainer = "container:clac.xcodeproj">
+            BlueprintIdentifier = "FA9E2FCE1C65C49E004EA185"
+            BuildableName = "icon.app"
+            BlueprintName = "icon"
+            ReferencedContainer = "container:icon.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FA9E300B1C65C786004EA185"
-            BuildableName = "clac.app"
-            BlueprintName = "clac"
-            ReferencedContainer = "container:clac.xcodeproj">
+            BlueprintIdentifier = "FA9E2FCE1C65C49E004EA185"
+            BuildableName = "icon.app"
+            BlueprintName = "icon"
+            ReferencedContainer = "container:icon.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FA9E300B1C65C786004EA185"
-            BuildableName = "clac.app"
-            BlueprintName = "clac"
-            ReferencedContainer = "container:clac.xcodeproj">
+            BlueprintIdentifier = "FA9E2FCE1C65C49E004EA185"
+            BuildableName = "icon.app"
+            BlueprintName = "icon"
+            ReferencedContainer = "container:icon.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -8,16 +8,6 @@
 
 import UIKit
 
-
-enum BtnTag: Int {
-     static let allValues: [BtnTag] = ["7", "7", "9", "+", "4","5","6","-","1","2","3","×","clear","0","=","÷"]
-    
-    func toStr() -> String {
-        return String(self.rawValue)
-    }
-}
-
-
 class ViewController: UIViewController {
 
     @IBOutlet weak var label1: UILabel!
@@ -38,16 +28,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     
-        for btag in BtnTag.allValues {
-            var y = CGFloat(356 + 58 * btag.rawValue )
-            var x = CGFloat(78 + 58 * btag.rawValue )
-            var btn = UIButton(frame: CGRectMake(x, y, 50, 50))
-            btn.backgroundColor = UIColor.redColor()
-            btn.tag = btag.rawValue
-            btn.setTitle(btag.toStr(), forState: .Normal)
-            btn.addTarget(self, action: "pushed:", forControlEvents: .TouchUpInside)
-            self.view.addSubview(btn)
-        }
+    
     
     
     

@@ -9,8 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-var i = 0
+   
+    var i = 0
+    
     @IBOutlet var tes: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,11 +24,18 @@ var i = 0
         // Dispose of any resources that can be recreated.
     }
 
-    @IBOutlet var add: UIButton!
-
     @IBAction func add(sender: AnyObject) {
         i++
         tes.text = String(i)
     }
+
+
+    @IBAction func minus(sender: AnyObject) {
+        i--
+        tes.text = String(i)
+        
+        
+    }
+
 }
 

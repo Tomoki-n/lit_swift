@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="R25-ib-8Cu">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Vv3-lN-IYv">
+            <objects>
+                <viewController id="R25-ib-8Cu" customClass="ViewController" customModule="gacha" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="voR-B0-spO"/>
+                        <viewControllerLayoutGuide type="bottom" id="8lK-ga-CoT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tFZ-Dw-VGL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gacha.png" translatesAutoresizingMaskIntoConstraints="NO" id="XzY-wD-DBX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0GI-mC-RQg">
+                                <rect key="frame" x="128" y="349" width="118" height="122"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="回す">
+                                    <color key="titleColor" red="0.9882318444" green="1" blue="0.97360966260000004" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="gacha" destination="R25-ib-8Cu" eventType="touchUpInside" id="ciD-mZ-TIe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="8N5-II-G9Y" kind="presentation" identifier="result" id="jCQ-u2-ban"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yLM-t8-akR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="126.5" y="8.5"/>
+        </scene>
+        <!--Result View Controller-->
+        <scene sceneID="B0h-j2-tSB">
+            <objects>
+                <viewController id="8N5-II-G9Y" customClass="ResultViewController" customModule="gacha" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Myc-KW-SQ0"/>
+                        <viewControllerLayoutGuide type="bottom" id="6fF-8Z-Wgb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e33-fb-kt7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mov-7B-744">
+                                <rect key="frame" x="0.0" y="7" width="369" height="660"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="ReturnView" destination="8N5-II-G9Y" eventType="touchUpInside" id="rL4-8Q-8L1"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rmx-ZM-JEG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qp3-Er-b46">
+                                <rect key="frame" x="67" y="159" width="240" height="242"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="haikeiImageView" destination="Rmx-ZM-JEG" id="1Rs-P2-4mX"/>
+                        <outlet property="monsterImageView" destination="Qp3-Er-b46" id="96x-8I-MbS"/>
+                        <segue destination="R25-ib-8Cu" kind="presentation" identifier="ReturnView" id="8ab-3e-0J6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mMi-bu-shY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="698.5" y="287.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gacha.png" width="450" height="678"/>
+    </resources>
+</document>

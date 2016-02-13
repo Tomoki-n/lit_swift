@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA32F15A1C6F52D400AEF4F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32F1591C6F52D400AEF4F7 /* AppDelegate.swift */; };
+		FA32F15C1C6F52D400AEF4F7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32F15B1C6F52D400AEF4F7 /* GameViewController.swift */; };
+		FA32F15F1C6F52D400AEF4F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA32F15D1C6F52D400AEF4F7 /* Main.storyboard */; };
+		FA32F1621C6F52D400AEF4F7 /* barabara.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA32F1601C6F52D400AEF4F7 /* barabara.xcdatamodeld */; };
+		FA32F1641C6F52D400AEF4F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA32F1631C6F52D400AEF4F7 /* Assets.xcassets */; };
+		FA32F1671C6F52D400AEF4F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA32F1651C6F52D400AEF4F7 /* LaunchScreen.storyboard */; };
+		FA32F1721C6F52D400AEF4F7 /* barabaraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32F1711C6F52D400AEF4F7 /* barabaraTests.swift */; };
+		FA32F17D1C6F52D400AEF4F7 /* barabaraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32F17C1C6F52D400AEF4F7 /* barabaraUITests.swift */; };
+		FA32F18B1C6F545A00AEF4F7 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32F18A1C6F545A00AEF4F7 /* RankingViewController.swift */; };
+		FA9C85421C6FD53F00837696 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9C85401C6FD53F00837696 /* bar.png */; };
+		FA9C85431C6FD53F00837696 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9C85411C6FD53F00837696 /* tail.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA32F16E1C6F52D400AEF4F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA32F14E1C6F52D400AEF4F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA32F1551C6F52D400AEF4F7;
+			remoteInfo = barabara;
+		};
+		FA32F1791C6F52D400AEF4F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA32F14E1C6F52D400AEF4F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA32F1551C6F52D400AEF4F7;
+			remoteInfo = barabara;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA32F1561C6F52D400AEF4F7 /* barabara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = barabara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA32F1591C6F52D400AEF4F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA32F15B1C6F52D400AEF4F7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FA32F15E1C6F52D400AEF4F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA32F1611C6F52D400AEF4F7 /* barabara.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = barabara.xcdatamodel; sourceTree = "<group>"; };
+		FA32F1631C6F52D400AEF4F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA32F1661C6F52D400AEF4F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA32F1681C6F52D400AEF4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA32F16D1C6F52D400AEF4F7 /* barabaraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barabaraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA32F1711C6F52D400AEF4F7 /* barabaraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barabaraTests.swift; sourceTree = "<group>"; };
+		FA32F1731C6F52D400AEF4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA32F1781C6F52D400AEF4F7 /* barabaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barabaraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA32F17C1C6F52D400AEF4F7 /* barabaraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barabaraUITests.swift; sourceTree = "<group>"; };
+		FA32F17E1C6F52D400AEF4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA32F18A1C6F545A00AEF4F7 /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		FA9C85401C6FD53F00837696 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		FA9C85411C6FD53F00837696 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA32F1531C6F52D400AEF4F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA32F16A1C6F52D400AEF4F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA32F1751C6F52D400AEF4F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA32F14D1C6F52D400AEF4F7 = {
+			isa = PBXGroup;
+			children = (
+				FA32F1581C6F52D400AEF4F7 /* barabara */,
+				FA32F1701C6F52D400AEF4F7 /* barabaraTests */,
+				FA32F17B1C6F52D400AEF4F7 /* barabaraUITests */,
+				FA32F1571C6F52D400AEF4F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA32F1571C6F52D400AEF4F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA32F1561C6F52D400AEF4F7 /* barabara.app */,
+				FA32F16D1C6F52D400AEF4F7 /* barabaraTests.xctest */,
+				FA32F1781C6F52D400AEF4F7 /* barabaraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA32F1581C6F52D400AEF4F7 /* barabara */ = {
+			isa = PBXGroup;
+			children = (
+				FA32F1591C6F52D400AEF4F7 /* AppDelegate.swift */,
+				FA32F15B1C6F52D400AEF4F7 /* GameViewController.swift */,
+				FA32F18A1C6F545A00AEF4F7 /* RankingViewController.swift */,
+				FA32F15D1C6F52D400AEF4F7 /* Main.storyboard */,
+				FA9C85401C6FD53F00837696 /* bar.png */,
+				FA9C85411C6FD53F00837696 /* tail.png */,
+				FA32F1631C6F52D400AEF4F7 /* Assets.xcassets */,
+				FA32F1651C6F52D400AEF4F7 /* LaunchScreen.storyboard */,
+				FA32F1681C6F52D400AEF4F7 /* Info.plist */,
+				FA32F1601C6F52D400AEF4F7 /* barabara.xcdatamodeld */,
+			);
+			path = barabara;
+			sourceTree = "<group>";
+		};
+		FA32F1701C6F52D400AEF4F7 /* barabaraTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA32F1711C6F52D400AEF4F7 /* barabaraTests.swift */,
+				FA32F1731C6F52D400AEF4F7 /* Info.plist */,
+			);
+			path = barabaraTests;
+			sourceTree = "<group>";
+		};
+		FA32F17B1C6F52D400AEF4F7 /* barabaraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA32F17C1C6F52D400AEF4F7 /* barabaraUITests.swift */,
+				FA32F17E1C6F52D400AEF4F7 /* Info.plist */,
+			);
+			path = barabaraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA32F1551C6F52D400AEF4F7 /* barabara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA32F1811C6F52D400AEF4F7 /* Build configuration list for PBXNativeTarget "barabara" */;
+			buildPhases = (
+				FA32F1521C6F52D400AEF4F7 /* Sources */,
+				FA32F1531C6F52D400AEF4F7 /* Frameworks */,
+				FA32F1541C6F52D400AEF4F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = barabara;
+			productName = barabara;
+			productReference = FA32F1561C6F52D400AEF4F7 /* barabara.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA32F16C1C6F52D400AEF4F7 /* barabaraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA32F1841C6F52D400AEF4F7 /* Build configuration list for PBXNativeTarget "barabaraTests" */;
+			buildPhases = (
+				FA32F1691C6F52D400AEF4F7 /* Sources */,
+				FA32F16A1C6F52D400AEF4F7 /* Frameworks */,
+				FA32F16B1C6F52D400AEF4F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA32F16F1C6F52D400AEF4F7 /* PBXTargetDependency */,
+			);
+			name = barabaraTests;
+			productName = barabaraTests;
+			productReference = FA32F16D1C6F52D400AEF4F7 /* barabaraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA32F1771C6F52D400AEF4F7 /* barabaraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA32F1871C6F52D400AEF4F7 /* Build configuration list for PBXNativeTarget "barabaraUITests" */;
+			buildPhases = (
+				FA32F1741C6F52D400AEF4F7 /* Sources */,
+				FA32F1751C6F52D400AEF4F7 /* Frameworks */,
+				FA32F1761C6F52D400AEF4F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA32F17A1C6F52D400AEF4F7 /* PBXTargetDependency */,
+			);
+			name = barabaraUITests;
+			productName = barabaraUITests;
+			productReference = FA32F1781C6F52D400AEF4F7 /* barabaraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA32F14E1C6F52D400AEF4F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Nishinaka Tomoki";
+				TargetAttributes = {
+					FA32F1551C6F52D400AEF4F7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FA32F16C1C6F52D400AEF4F7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FA32F1551C6F52D400AEF4F7;
+					};
+					FA32F1771C6F52D400AEF4F7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FA32F1551C6F52D400AEF4F7;
+					};
+				};
+			};
+			buildConfigurationList = FA32F1511C6F52D400AEF4F7 /* Build configuration list for PBXProject "barabara" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA32F14D1C6F52D400AEF4F7;
+			productRefGroup = FA32F1571C6F52D400AEF4F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA32F1551C6F52D400AEF4F7 /* barabara */,
+				FA32F16C1C6F52D400AEF4F7 /* barabaraTests */,
+				FA32F1771C6F52D400AEF4F7 /* barabaraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA32F1541C6F52D400AEF4F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA32F1671C6F52D400AEF4F7 /* LaunchScreen.storyboard in Resources */,
+				FA9C85431C6FD53F00837696 /* tail.png in Resources */,
+				FA32F1641C6F52D400AEF4F7 /* Assets.xcassets in Resources */,
+				FA32F15F1C6F52D400AEF4F7 /* Main.storyboard in Resources */,
+				FA9C85421C6FD53F00837696 /* bar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA32F16B1C6F52D400AEF4F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA32F1761C6F52D400AEF4F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA32F1521C6F52D400AEF4F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA32F15C1C6F52D400AEF4F7 /* GameViewController.swift in Sources */,
+				FA32F1621C6F52D400AEF4F7 /* barabara.xcdatamodeld in Sources */,
+				FA32F15A1C6F52D400AEF4F7 /* AppDelegate.swift in Sources */,
+				FA32F18B1C6F545A00AEF4F7 /* RankingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA32F1691C6F52D400AEF4F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA32F1721C6F52D400AEF4F7 /* barabaraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA32F1741C6F52D400AEF4F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA32F17D1C6F52D400AEF4F7 /* barabaraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA32F16F1C6F52D400AEF4F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA32F1551C6F52D400AEF4F7 /* barabara */;
+			targetProxy = FA32F16E1C6F52D400AEF4F7 /* PBXContainerItemProxy */;
+		};
+		FA32F17A1C6F52D400AEF4F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA32F1551C6F52D400AEF4F7 /* barabara */;
+			targetProxy = FA32F1791C6F52D400AEF4F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA32F15D1C6F52D400AEF4F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA32F15E1C6F52D400AEF4F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA32F1651C6F52D400AEF4F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA32F1661C6F52D400AEF4F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA32F17F1C6F52D400AEF4F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA32F1801C6F52D400AEF4F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA32F1821C6F52D400AEF4F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = barabara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.gifu-nct.elec.barabara";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA32F1831C6F52D400AEF4F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = barabara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.gifu-nct.elec.barabara";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA32F1851C6F52D400AEF4F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = barabaraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.gifu-nct.elec.barabaraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barabara.app/barabara";
+			};
+			name = Debug;
+		};
+		FA32F1861C6F52D400AEF4F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = barabaraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.gifu-nct.elec.barabaraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barabara.app/barabara";
+			};
+			name = Release;
+		};
+		FA32F1881C6F52D400AEF4F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = barabaraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.gifu-nct.elec.barabaraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = barabara;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FA32F1891C6F52D400AEF4F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = barabaraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.gifu-nct.elec.barabaraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = barabara;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA32F1511C6F52D400AEF4F7 /* Build configuration list for PBXProject "barabara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA32F17F1C6F52D400AEF4F7 /* Debug */,
+				FA32F1801C6F52D400AEF4F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA32F1811C6F52D400AEF4F7 /* Build configuration list for PBXNativeTarget "barabara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA32F1821C6F52D400AEF4F7 /* Debug */,
+				FA32F1831C6F52D400AEF4F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA32F1841C6F52D400AEF4F7 /* Build configuration list for PBXNativeTarget "barabaraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA32F1851C6F52D400AEF4F7 /* Debug */,
+				FA32F1861C6F52D400AEF4F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA32F1871C6F52D400AEF4F7 /* Build configuration list for PBXNativeTarget "barabaraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA32F1881C6F52D400AEF4F7 /* Debug */,
+				FA32F1891C6F52D400AEF4F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA32F1601C6F52D400AEF4F7 /* barabara.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA32F1611C6F52D400AEF4F7 /* barabara.xcdatamodel */,
+			);
+			currentVersion = FA32F1611C6F52D400AEF4F7 /* barabara.xcdatamodel */;
+			path = barabara.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA32F14E1C6F52D400AEF4F7 /* Project object */;
+}
